@@ -1,0 +1,61 @@
+#sidebar {
+    width: 200px; /* Set the width as needed */
+    background-color: #f8f9fa;
+    margin-right: 100px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Add a container for the main content and table */
+.content-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100%;
+}
+
+.card {
+    width: 86pc; /* Adjust the width as needed */
+    margin-top: 0;
+}
+
+.flex-column a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+
+h1{
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: xx-large
+}
+
+.table {
+    
+    border-collapse: collapse;
+    background-color: #ffffff00;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
